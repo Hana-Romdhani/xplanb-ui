@@ -1,9 +1,5 @@
 FROM node:18 AS build
 WORKDIR /app
-
-# Copy env file before install + build
-COPY .env .env
-
 COPY package.json package-lock.json ./
 RUN npm i @rollup/rollup-linux-x64-gnu@4.6.1
 
