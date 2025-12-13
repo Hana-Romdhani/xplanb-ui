@@ -31,7 +31,7 @@ jobs:
         run: npm ci
 
       # 4️⃣ Build du frontend
-      - name: Build backend
+      - name: Build frontend
         run: npm run build
        
        # 7️⃣ Log in to DockerHub
