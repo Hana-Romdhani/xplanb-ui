@@ -30,7 +30,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      # 4️⃣ Build du backend
+      # 4️⃣ Build du frontend
       - name: Build backend
         run: npm run build
        
